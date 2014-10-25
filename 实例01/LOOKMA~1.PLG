@@ -1,0 +1,57 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: LookMaSDI - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x409 /fo"Debug/LookMaSDI.res" /d "_DEBUG" /d "_AFXDLL" "E:\建恒6\实例 01\LookMaSDI.rc"" 
+Creating temporary file "D:\DOCUME~1\fuzzya1\LOCALS~1\Temp\RSP7.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /Fp"Debug/LookMaSDI.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /c 
+"E:\建恒6\实例 01\ContentMenu.cpp"
+"E:\建恒6\实例 01\LookMaSDI.cpp"
+"E:\建恒6\实例 01\LookMaSDIDoc.cpp"
+"E:\建恒6\实例 01\LookMaSDIView.cpp"
+"E:\建恒6\实例 01\MainFrm.cpp"
+]
+Creating command line "cl.exe @D:\DOCUME~1\fuzzya1\LOCALS~1\Temp\RSP7.tmp" 
+Creating temporary file "D:\DOCUME~1\fuzzya1\LOCALS~1\Temp\RSP8.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /Fp"Debug/LookMaSDI.pch" /Yc"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /c 
+"E:\建恒6\实例 01\StdAfx.cpp"
+]
+Creating command line "cl.exe @D:\DOCUME~1\fuzzya1\LOCALS~1\Temp\RSP8.tmp" 
+Creating temporary file "D:\DOCUME~1\fuzzya1\LOCALS~1\Temp\RSP9.tmp" with contents
+[
+/nologo /subsystem:windows /incremental:yes /pdb:"Debug/LookMaSDI.pdb" /debug /machine:I386 /out:"Debug/LookMaSDI.exe" /pdbtype:sept 
+".\Debug\ContentMenu.obj"
+".\Debug\LookMaSDI.obj"
+".\Debug\LookMaSDIDoc.obj"
+".\Debug\LookMaSDIView.obj"
+".\Debug\MainFrm.obj"
+".\Debug\StdAfx.obj"
+".\Debug\LookMaSDI.res"
+]
+Creating command line "link.exe @D:\DOCUME~1\fuzzya1\LOCALS~1\Temp\RSP9.tmp"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+StdAfx.cpp
+Compiling...
+ContentMenu.cpp
+LookMaSDI.cpp
+LookMaSDIDoc.cpp
+LookMaSDIView.cpp
+MainFrm.cpp
+Generating Code...
+Linking...
+
+
+
+<h3>Results</h3>
+LookMaSDI.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>
